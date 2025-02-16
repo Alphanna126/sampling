@@ -10,10 +10,25 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Ann Paul
 
 ```
-Please write your explanation here...
+So here initially in simulate_event(m) a subset of event attendees is randomly infected based on a fixed attack rate of 10% (i.e ATTACK_RATE = 0.10). in this initial sampling, the sample size is 1000*10% which 100 people are infected. the sampling frame is the entire 1000 people. np.random.choice() indicates the sample is chosen without replacement and as random sampling.
+
+Next in primary contact tracing: Among infected individuals, a subset is randomly chosen to be successfully traced, based on the trace success rate of 20% (i.e.TRACE_SUCCESS).in the second level of sampling the sample Size: 100×20%=20 individuals traced. the sampling Frame is the 100 infected individuals.in this each infected person has a 20% probability of being traced, using np.random.rand() < TRACE_SUCCESS
+
+In Sampling for Secondary Contact Tracing: Here Events where at least 2 primary cases that are traced are selected for event-wide secondary tracing.in this case ,Sample Size varies per simulation but depends on how many events meet the threshold.and the sampling Frame is all events where at least one infected individual was traced.Looks like here we have Threshold-based sampling -something like a condition to be considered and not just random.
+
+while running the code as it, i see the difference such that for infections centers on 20%, with some variation around that. and traces  is also seen within 20% in the code. But in blog, the observed population is around 50%. 
+The blog post explains how contact tracing overrepresents infections in structured, traceable settings (e.g., weddings) while underrepresenting unstructured gatherings (e.g., brunches).
+
+I modified the code as: results = [simulate_event(m) for m in range(100)] to Modify the number of repetitions in the simulation to 100. each time i ran the python file, the graph plot varied and gave me different result set. This is mainly because we did not set the sees in the initial part of the program.
+
+Inorder to introduce reproducibility, we can issue, the below code line:
+
+np.random.seed(42)
+This will ensure the same result is seen everytime the python file is run. the histogram will be identical final result set will be the same always in props_df
+
 
 ```
 
