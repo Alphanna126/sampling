@@ -40,30 +40,41 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#2`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to understand what Canadian voters want from our political party and its leader in order to maintain our lead in the federal election. By gathering voter opinions on key policies, leadership qualities, and concerns, with an aim to refine our campaign strategy to maximize voter support and secure victory in the upcoming election.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target Population: All eligible voters in Canada who have the potential to vote in the upcoming federal election.
+
+Frame Population: Registered voters whose contact details are available through public voter registries, party membership lists, and third-party voter databases.
+
+Sampled Population: Individuals who respond to the survey, drawn from a random sample of the frame population.
+
+Sampling Strategy: A stratified random sampling approach will be used, ensuring proportional representation across provinces, age groups, and political affiliations.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1.How likely are you to vote in the upcoming federal election? (Very likely, Somewhat likely, Not likely, Undecided)
+
+2.What are the top three issues that will influence your vote? (Economy, Healthcare, Climate Change, Education, Immigration, Housing, Other)
+
+3.How would you rate our party’s performance during this election campaign? (Excellent, Good, Fair, Poor, No opinion)
+
+4.What qualities do you look for in a political leader? (Strong leadership, Honesty, Policy knowledge, Experience, Charisma, Other)
+
+5.How satisfied are you with our party’s stance on key policies? (Very satisfied, Somewhat satisfied, Neutral, Somewhat dissatisfied, Very dissatisfied)
+
+6.How do you primarily receive political information? (Television, Social Media, Newspapers, Radio, Friends/Family, Political Campaigns, Other)
+
+7.Would you be interested in receiving more information about our party’s platform? (Yes, No, Maybe)
+
+8.Do you have any additional comments or concerns about the upcoming election?
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +82,37 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: The survey employed a stratified design with probability sampling. Stratification was conducted at the province and census metropolitan area (CMA) levels.
+
+2. Sample size: A field sample of approximatively 50,000 units was used. Among them, about 40,000 invitation letters to the electronic questionnaire were sent to selected households across Canada. A completion of 24,000 questionnaires was expected.
+
+3. Target population: all persons 15 years of age and older living in the ten provinces of Canada excluding full-time (residing for more than six months) residents of institutions.
+
+4. Sampling frame: A combined frame of landline and cellular telephone numbers derived from the Census and various administrative sources, integrated with Statistics Canada's dwelling frame.
+
+5. Survey mode(s) : Data collection was conducted through telephone interviews and electronic questionnaires. 
+STATISTICS CANADA
+
+6. Timeline: The survey is conducted every five years, with data collection for the 2018 cycle occurring from September to December 2018.
+
+7. Response rate: A completion of 24,000 questionnaires was expected.
+
+8. Weights: The survey data includes weights to ensure that estimates are representative of the Canadian population. These weights account for the probability of selection and adjust for non-response. 
+STATISTICS CANADA
+
+9. Data processing: Data processing involved editing and coding responses to ensure accuracy and consistency. This includes validating data entries and categorizing open-ended responses. 
+STATISTICS CANADA
+
+10. Cleaning, imputation, etc: While specific imputation methods are not detailed in the available sources, standard data cleaning procedures were applied to address missing or inconsistent data.
+
+11. Sources of error :Potential sources of error include sampling error, non-sampling error (such as measurement errors, data processing errors), and non-response bias. 
+
+STATISTICS CANADA
+12. Limitations, known biases, etc :The survey excludes residents of the Yukon, Northwest Territories, Nunavut, and full-time residents of institutions, which may limit the generalizability of the results to these populations. 
+
+STATISTICS CANADA
+13. Link to documentation and any additional sources used : https://www23.statcan.gc.ca/imdb/p3Instr.pl?Function=getInstrumentList&Item_Id=1183690&UL=1V& and https://www23.statcan.gc.ca/imdb/p2SV.pl?Function=getSurvey&SDDS=4430
+
 ```
 
 ## Rubric
